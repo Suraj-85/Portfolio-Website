@@ -1,0 +1,75 @@
+* {
+  text-decoration: none;
+}
+body {
+  background-color: #0a0a23;
+  font-family: Calibri, sans-serif;
+  padding-top: 50px;
+  margin: 0;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1f1f1f;
+  padding: 10px;
+  z-index: 100;
+}
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a, li a {
+  color: white;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin-right: 15px;
+}
+li a:hover {
+  color: #00ffff;
+}
+.welcome-text {
+  background-color: #ffff66;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin-top: 60px;
+}
+.content {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+.about, .projects, .contact {
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+.projects .project {
+  background-color: #1c1c2e;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.projects a {
+  color: #00ffff;
+}
+.contact button {
+  background-color: #00ffff;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contact button:hover {
+  background-color: #00cccc;
+}
